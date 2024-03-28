@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(255, 106, 0, 0.769);
+}
+.container{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center ;
+}
+.fir-con{
+    background-color: white;
+    text-align: center;
+    width: 15%;
+    border: 1px solid black;
+    padding: 3px;
+}
+.btn1{
+    padding: 5px;
+    border: unset;
+    color: white;
+    background-color: rgb(243, 86, 7);
+}
+.btn2{
+    margin-top: 30px;
+    padding: 5px;
+    border: unset;
+    color: white;
+    background-color: rgb(243, 86, 7);
+}
+.btn3{
+    margin-top: 30px;
+    padding: 5px;
+    border: unset;
+    color: white;
+    background-color: rgb(243, 86, 7);
+    margin-bottom: 10px;
+    /* display: none; */
+}
+.btn4{
+    margin-top: 30px;
+    padding: 5px;
+    border: unset;
+    color: white;
+    background-color: rgb(243, 86, 7);
+    margin-bottom: 10px;
+    /* display: none; */
+}
+.in{
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    /* min-width: 10%; */
+}
+.sec-con{
+    /* background-color: aqua; */
+    border: 1px ridge red;
+    box-shadow: 10px 10px 15px red;
+    text-align: center;
+    padding: 20px 0;
+    background-color: white;
+}
+.up-con{
+    display: none;
+    min-width: 15%;
+}
+.sec-con .img1{
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.th-in .img2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 15px 0;
+}
+.th-in{
+    background: url('./jason-leung-Xaanw0s0pMk-unsplash.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.927);
+    padding: 50px;
+    /* display: none; */
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 128, 255, 0.415);
+}
+.th-con{
+    display: none;
+}
+.name2{
+    margin-bottom: 10px;
+}
